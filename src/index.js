@@ -1,5 +1,6 @@
-import "./pages/index.css";
 import "./pages/variables.css";
+import "./pages/index.css";
+
 
 document.addEventListener('DOMContentLoaded', function () {
   const maxSelection = 4;

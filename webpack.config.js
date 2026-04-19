@@ -7,8 +7,8 @@ module.exports = {
   entry: { main: "./src/index.js" },
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "main.js",
-    publicPath: "/",
+   filename: "main.[contenthash:8].js", 
+  publicPath: "/test-cloud/",
   },
   mode: "development",
   devServer: {
